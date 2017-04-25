@@ -29,3 +29,7 @@
 ## Getting access to WebUIs
 
 There are commented lines `nodePort: ...` for all interesting services in `configs/*`, so, just uncomment the ones you're interested about and put some static node port.
+
+## Twitter API config
+
+Go to https://apps.twitter.com/ and create new app and *readwrite* token and put data from it into the `configs/tweepub.yaml`.
