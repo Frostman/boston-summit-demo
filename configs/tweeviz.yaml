@@ -1,6 +1,6 @@
 image:
   repository: frostman/tweeviz
-  tag: "2017042501"
+  tag: "2017042502"
   pullPolicy: Always
 
 hdfs:
