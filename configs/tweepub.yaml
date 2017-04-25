@@ -1,0 +1,20 @@
+image:
+  repository: frostman/tweepub
+  tag: "2017042401"
+  pullPolicy: Always
+
+twitter:
+  appKey: EDITME
+  appSecret: EDITME
+  tokenKey: EDITME
+  tokenSecret: EDITME
+
+  #follow: twitter,kubernetesio
+  #track: openstack,kubernetes,k8s,python,golang
+  locations: -122.75,36.8,-121.75,37.8,-74,40,-73,41
+
+  #languages: en
+
+kafka:
+  servers: kafka-kafka-1-0.kafka-kafka-1:9092
+  topic: twitter-stream

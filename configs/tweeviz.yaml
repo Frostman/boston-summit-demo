@@ -1,0 +1,15 @@
+image:
+  repository: frostman/tweeviz
+  tag: latest
+  pullPolicy: Always
+
+hdfs:
+  address: hdfs-namenode
+  port: 8020
+  path: /
+
+minPopularity: 1
+topListSize: 0
+
+serviceType: NodePort
+# nodePort: 33000
