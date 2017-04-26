@@ -1,6 +1,6 @@
 image:
   repository: frostman/tweeviz
-  tag: "2017042504"
+  tag: "2017042520"
   pullPolicy: Always
 
 hdfs:
@@ -9,7 +9,7 @@ hdfs:
   path: /
 
 minPopularity: 1
-topListSize: 0
+topListSize: 50
 
 serviceType: NodePort
 # nodePort: 33000
